@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#222222</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="sun">#D23E1A</color>
+    <color name="otherDays">#000000</color>
+    <color name="background">#00EEEEEE</color>
+    <color name="tableBG">#DADDDDDD</color>
+    <color name="mainTable">#AADDDDDD</color>
+    <color name="currentMonth">#AAabc835</color>
+    <color name="monthColor">#FFFFFF</color>
+    <color name="jan">#daf44336</color>
+    <color name="feb">#dae91e63</color>
+    <color name="mar">#da9c27b0</color>
+    <color name="apr">#da2196f3</color>
+    <color name="may">#da00bcd4</color>
+    <color name="jun">#da4caf50</color>
+    <color name="jul">#da8bc34a</color>
+    <color name="aug">#dad9c515</color>
+    <color name="sep">#daffc107</color>
+    <color name="oct">#daff9800</color>
+    <color name="nov">#daF57C00</color>
+    <color name="dec">#daff5722</color>
+</resources>
+
+

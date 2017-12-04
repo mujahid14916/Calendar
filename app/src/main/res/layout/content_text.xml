@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingLeft="@dimen/activity_main_margin"
+    android:paddingRight="@dimen/activity_main_margin"
+    android:paddingBottom="@dimen/activity_main_margin"
+    android:paddingTop="@dimen/activity_main_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.calendar.my.calendar.TextActivity"
+    tools:showIn="@layout/activity_text">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/scrollView"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TableLayout
+                    android:id="@+id/jan"
+                    style="@style/Table">
+
+                    <TextView
+                        android:id="@+id/month1"
+                        style="@style/Month"
+                        android:background="@color/jan"
+                        android:text="@string/january" />
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sun"
+                            android:textColor="@color/sun" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/mon" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/tue" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/wed" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/thu" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/fri" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sat" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/feb"
+                    style="@style/Table">
+
+                    <TextView
+                        android:id="@+id/month2"
+                        style="@style/Month"
+                        android:background="@color/feb"
+                        android:text="@string/february" />
+
+                    <TableRow
+                        android:id="@+id/tableRow2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sun"
+                            android:textColor="@color/sun" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/mon" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/tue" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/wed" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/thu" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/fri" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sat" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/mar"
+                    style="@style/Table">
+
+                    <TextView
+                        android:id="@+id/month3"
+                        style="@style/Month"
+                        android:background="@color/mar"
+                        android:text="@string/march" />
+
+                    <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sun"
+                            android:textColor="@color/sun" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/mon" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/tue" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/wed" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/thu" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/fri" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sat" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/apr"
+                    style="@style/Table">
+
+                    <TextView
+                        android:id="@+id/month4"
+                        style="@style/Month"
+                        android:background="@color/apr"
+                        android:text="@string/april" />
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sun"
+                            android:textColor="@color/sun" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/mon" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/tue" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/wed" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/thu" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/fri" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sat" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/may"
+                    style="@style/Table">
+
+                    <TextView
+                        android:id="@+id/month5"
+                        style="@style/Month"
+                        android:background="@color/may"
+                        android:text="@string/may" />
+
+                    <TableRow
+                        android:id="@+id/tableRow5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sun"
+                            android:textColor="@color/sun" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/mon" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/tue" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/wed" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/thu" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/fri" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sat" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/jun"
+                    style="@style/Table">
+
+                    <TextView
+                        android:id="@+id/month6"
+                        style="@style/Month"
+                        android:background="@color/jun"
+                        android:text="@string/june" />
+
+                    <TableRow
+                        android:id="@+id/tableRow6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sun"
+                            android:textColor="@color/sun" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/mon" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/tue" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/wed" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/thu" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/fri" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sat" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/jul"
+                    style="@style/Table">
+
+                    <TextView
+                        android:id="@+id/month7"
+                        style="@style/Month"
+                        android:background="@color/jul"
+                        android:text="@string/july" />
+
+                    <TableRow
+                        android:id="@+id/tableRow7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sun"
+                            android:textColor="@color/sun" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/mon" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/tue" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/wed" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/thu" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/fri" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sat" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/aug"
+                    style="@style/Table">
+
+                    <TextView
+                        android:id="@+id/month8"
+                        style="@style/Month"
+                        android:background="@color/aug"
+                        android:text="@string/august" />
+
+                    <TableRow
+                        android:id="@+id/tableRow8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sun"
+                            android:textColor="@color/sun" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/mon" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/tue" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/wed" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/thu" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/fri" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sat" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/sep"
+                    style="@style/Table">
+
+                    <TextView
+                        android:id="@+id/month9"
+                        style="@style/Month"
+                        android:background="@color/sep"
+                        android:text="@string/september" />
+
+                    <TableRow
+                        android:id="@+id/tableRow9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sun"
+                            android:textColor="@color/sun" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/mon" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/tue" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/wed" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/thu" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/fri" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sat" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/oct"
+                    style="@style/Table">
+
+                    <TextView
+                        android:id="@+id/month10"
+                        style="@style/Month"
+                        android:background="@color/oct"
+                        android:text="@string/october" />
+
+                    <TableRow
+                        android:id="@+id/tableRow10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sun"
+                            android:textColor="@color/sun" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/mon" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/tue" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/wed" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/thu" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/fri" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sat" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/nov"
+                    style="@style/Table">
+
+                    <TextView
+                        android:id="@+id/month11"
+                        style="@style/Month"
+                        android:background="@color/nov"
+                        android:text="@string/november" />
+
+                    <TableRow
+                        android:id="@+id/tableRow11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sun"
+                            android:textColor="@color/sun" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/mon" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/tue" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/wed" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/thu" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/fri" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sat" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/dec"
+                    style="@style/Table">
+
+                    <TextView
+                        android:id="@+id/month12"
+                        style="@style/Month"
+                        android:background="@color/dec"
+                        android:text="@string/december" />
+
+                    <TableRow
+                        android:id="@+id/tableRow12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sun"
+                            android:textColor="@color/sun" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/mon" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/tue" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/wed" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/thu" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/fri" />
+
+                        <TextView
+                            style="@style/WeekNames"
+                            android:text="@string/sat" />
+                    </TableRow>
+                </TableLayout>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+
+</RelativeLayout>

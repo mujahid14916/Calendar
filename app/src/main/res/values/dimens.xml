@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">5dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_main_margin">10dp</dimen>
+    <dimen name="monthMargin">10dp</dimen>
+    <dimen name="monthSize">30sp</dimen>
+    <dimen name="dayMargin">2dp</dimen>
+    <dimen name="dayWidth">45dp</dimen>
+    <dimen name="dayHeight">30dp</dimen>
+    <dimen name="landDayHeight">20dp</dimen>
+    <dimen name="runHeight">32dp</dimen>
+    <dimen name="restartWidth">350dp</dimen>
+    <dimen name="minHeight">400dp</dimen>
+    <dimen name="minHeightPlus">450dp</dimen>
+</resources>
